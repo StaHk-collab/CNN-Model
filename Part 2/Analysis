@@ -1,0 +1,15 @@
+Part 2 Analysis:
+
+Train set -> mnist datasets
+Test set -> mnist datasets
+
+Here, I have used 3 Conv layers with filters of 3 x 3 , Max Pooling layer with window 2 x 2, activation function as Relu and Sequential Stacking. Output Layer is Softmax since the model is for training and testing 10 classifiers (0 - 9).
+Optimizers used is RMSprop which is better than sgd for image sets. 
+Loss is of type sparse_categorical_crossentropy as the model has 10 classifiers .
+In case of 2 classifiers, we can use binary in place of sparse , i.e., binary_crossentropy.
+Then fitting/ trining the model on the mnist train sets.
+Then we can use pandas.DataFrame for getting some insights about the training and validation sets.
+[In mnist datasets, 5000 datasets are used as validation sets and rest 55,000 as train set. 10,000 sets are for testing].
+Now, evaluating the model gave the accuracy of 98.63% which is much better than a randomly initialized artificial neural network.
+CNN performs better as it is faster and more accurate.
+Saving the model and clearing the session.
