@@ -12,7 +12,7 @@ Step 4: Structuring the Model.
 This is a type of a Sequential Stacking Model.
 A randomly initialized neural network [ANN] won’t give much accuracy and will consume more space and memory. So, using CNN [Convolutional Layers] before the neural networks will increase the model accuracy and reduce the space and time complexity.
 CNNs are more efficient because they use filters to reduce the matrix dimensions with each Conv layer and reduces it to a feature map. After the Conv layer there is a Pooling layer. There are 2 types of Pooling. Max Pooling and Average Pooling.
-In the model, I have used Max Pooling Layer.
+In the model, I have used Max Pooling Layer with 2 x 2 window.
 There are various Activation Functions involved in different layers of the Model.
 I have used Relu as activation function for all the Conv Layers and Hidden Layers.
 Output layer Activation function is softmax and not Sigmoid as it has more classifications.
