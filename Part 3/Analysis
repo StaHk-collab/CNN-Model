@@ -1,0 +1,11 @@
+Part 3 : Analysis
+
+Train set -> mnistTask [ given ]
+Test set -> mnist test dataset, part1 dataset
+
+Models -> part1.h5, part2.h5
+
+Using the part2 model and training it on mnistTask dataset [given] I have got an accuracy of 98.63% on the test dataset.
+Using the part1 model and training it on mnistTask dataset [given] I have got an accuracy of 10.08% on the test dataset.
+It is because the model part1.h5 is trained on a dataset [trainPart1] which has 62 categories/ classifiers, out of which only 10 classifiers are used to predict in the test dataset. The strength of the dataset (0 - 9) is around 50 x 10 = 500 and total is 2480 images which is around 20% of the dataset trainPart1. So, the model trained on such dataset doesn’t give more accuracy. As the data is uneven.
+Whereas, in case of part2 model, the data on which it is trained is evenly distributed.
