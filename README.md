@@ -3,14 +3,14 @@ Building CNN model
 
 Part 1 : (Training set -> trainPart1)
 
-Part1.ipynb -> Jupyter Notebook file
-model.png -> flowchart of CNN Model built in part 1
+Part1.ipynb -> Jupyter Notebook file, 
+model.png -> flowchart of CNN Model built in part 1, 
 part1.h5 -> The model built in Part1
 
 Part 2 : (Training set -> 0 - 9 Datasets from trainPart1, Test set -> mnist datsets)
 
-mnist.ipynb -> Jupyter Notebook file
-model.png -> flowchart of CNN Model built in part 2
+mnist.ipynb -> Jupyter Notebook file, 
+model.png -> flowchart of CNN Model built in part 2, 
 part2.h5 -> The model built in Part 2
 
 Part 3 : (Training set -> mnistTask, Test set -> mnist datsests, models -> part1.h5, part2.h5 )
