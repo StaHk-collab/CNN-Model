@@ -18,3 +18,4 @@ Part 3 : (Training set -> mnistTask, Test set -> mnist datsests, models -> part1
 accuracy-on-mnist-test-set.ipynb -> Jupyter Notebook file
 
 Modules/ Libraries used -> Pandas, NumPy, Tensorflow & Keras, matplotlib, pydot.
+Resources -> keras-tensorflow, Pandas documentations.
