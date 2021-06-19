@@ -1,5 +1,4 @@
-# Midas-Task-2
-Building CNN model
+# Building CNN model
 
 Part 1 : (Training set -> trainPart1)
 
